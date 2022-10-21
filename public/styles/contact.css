@@ -8,8 +8,9 @@
 
 .contact__title {
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
+ 
 }
 
 .contact__container {

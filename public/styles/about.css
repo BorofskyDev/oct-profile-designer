@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.about__body {
+    padding-left: 1em;
+    line-height: 1.5;
+}
+
 .section__subtitle--about {
     margin: 0 auto;
     width: 100%;
@@ -27,7 +32,7 @@
 }
 
 .about__social-media--link{
-    padding: 1em;
+    padding: 1em 0 0 1em;
     font-size: 1.5rem;
 }
 
