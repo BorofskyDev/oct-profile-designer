@@ -1,0 +1,29 @@
+@import './style.css';
+
+.fa-html5 {
+    color: #e34c26;
+}
+
+.fa-css3 {
+   color: #2196F3;
+}
+
+.fa-js {
+    color: #FFD600;
+}
+
+.fa-react {
+    color: #61DBFB;
+}
+
+.fa-sass {
+    color: #CE679A;
+}
+
+.fa-github {
+    color: #6e5494;
+}
+
+.fa-codepen {
+    color: #E1E2E2;
+}

@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.section__subtitle--about {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .about__img {
     border-radius: 2em;
     box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.8), 0 0 15px 1px rgba(0, 0, 0, 0.4);
@@ -33,17 +38,25 @@
         width: calc(100% + 2em);
         padding-left: 1em;
         padding-right: calc(200px + 4em);
+        margin: 0;
     }
 
     .about__img {
         grid-area: img;
         position: relative;
         z-index: 2;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
 @media (min-width: 70em){
     .about__img {
         min-width: 20em;
+        height: 100%;
+        object-fit: cover;
+    }
+    .section__subtitle--about {
+        width: calc(100% + 8em);
     }
 }

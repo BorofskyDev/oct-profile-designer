@@ -86,7 +86,7 @@ body {
   color: hsl(var(--clr-light));
   margin: 0;
   font-family: var(--ff-body);
-  font-size: var(--ff-body);
+  font-size: var(--fs-body);
   line-height: 1.6;
 }
 
@@ -218,6 +218,7 @@ h3 { font-size: var(--fs-h3 )}
     color: hsl(var(--clr-primary));
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    text-align: center;
 }
 
 .curved-div {

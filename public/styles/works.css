@@ -1,0 +1,105 @@
+@import './style.css';
+
+.works {
+  text-align: center;
+   background-image: url(../images/about-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.works__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.works__title {
+  overflow: hidden;
+}
+
+.works__card {
+  max-width: 25em;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(9px);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.8), 0 0 20px 1px rgba(0, 0, 0, 0.4);
+  margin: 3em auto;
+  border-radius: 5%;
+}
+
+.works__title {
+  font-size: 2rem;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-shadow: 0 0 4px #000;
+}
+
+.works__img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.works__stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stack__item {
+  font-size: 1rem;
+  padding: 0.3em 0.6em;
+}
+
+.stack__item .fa-brands,
+.stack__item .stack__icon {
+  margin-right: 0.2em;
+}
+
+.works__content {
+  margin: 0.7em 1em;
+}
+
+.works__content a {
+  color: hsl(var(--clr-primary));
+  text-shadow: 0 0 2px #000;
+}
+
+.works__footer {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.works__footer a {
+  color: hsl(var(--clr-primary));
+  text-shadow: 0 0 2px #000;
+  align-self: flex-end;
+}
+
+.works__end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works__end i {
+  padding-left: 1em;
+}
+
+@media (min-width: 50em) {
+  .works {
+    background-image: url(../images/about-bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .works__container {
+    align-items: flex-start;
+  }
+
+  .works__card {
+    /* height: 35em; */
+  }
+}
