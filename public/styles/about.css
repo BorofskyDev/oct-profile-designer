@@ -16,6 +16,56 @@
     margin-top: 1.5em;
 }
 
+.about__social-media{
+    margin: 3em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about__social-media--link{
+    padding: 2em;
+    font-size: 1.5rem;
+}
+
+.about__icon {
+    background: rgba(255,255,255, 0.2);
+    border-radius: 50%;
+    padding: .3em;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.8), 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+}
+
+.about__icon:hover,
+.about__icon:focus {
+    transform: scale(1.2) rotate(360deg);
+}
+
+.about__social-media--link .fa-twitter:hover,
+.about__social-media--link .fa-twitter:focus {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4), 0 0 30px 2px rgba(29, 161, 242, 1);
+}
+
+.about__social-media--link .fa-linkedin-in:hover,
+.about__social-media--link .fa-linkedin-in:focus {
+     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4), 0 0 30px 2px rgba(0, 119, 181, 1);
+}
+
+.about__social-media--link .fa-github:hover,
+.about__social-media--link .fa-github:focus {
+     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4), 0 0 30px 2px rgba(110, 84, 148, 1);
+}
+
+.about__social-media--link .fa-codepen:hover,
+.about__social-media--link .fa-codepen:focus {
+     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4), 0 0 30px 2px rgba(225, 226, 226, 1);
+}
+
+
+
 @media (min-width: 50em){
     .about {
         display: grid;
