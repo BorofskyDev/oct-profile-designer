@@ -1,0 +1,121 @@
+@import './style.css';
+
+.contact {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.contact__title {
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.form-control {
+  position: relative;
+  margin: 1.25em 0 2.5em;
+  width: 18.75em;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 1em;
+  color: hsl(var(--clr-secondary));
+  text-shadow: 0 0 1px #000;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 1.1rem;
+  min-width: 5px;
+  transition: 300ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control textarea:focus + label span,
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: hsl(var(--clr-light));
+  text-shadow: 0 0 3px #000;
+  transform: translateY(-2.3em);
+}
+
+.form-control input {
+  background-color: hsl(var(--clr-dark));
+  border: 0;
+  border-bottom: 1px solid hsl(var(--clr-cool));
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.6) inset;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 0.6em 0.8em;
+  color: hsl(var(--clr-light));
+}
+
+.form-control input:focus {
+  border-bottom-color: hsl(var(--clr-secondary));
+}
+
+.form-control textarea {
+  background-color: hsl(var(--clr-dark));
+  border: none;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.6) inset;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.6em 0.8em;
+ 
+  color: hsl(var(--clr-secondary));
+}
+
+.form__message {
+  margin: 0 auto;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-contact {
+  cursor: pointer;
+  position: relative;
+  padding: 0.5em 2em;
+  text-transform: uppercase;
+  color: hsl(var(--clr-light));
+  letter-spacing: 4px;
+  max-width: 20em;
+  font-weight: 700;
+  background-color: hsl(var(--clr-secondary));
+  border: 0;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.7), 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: transform 300ms ease;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+    transform: scale(1.2);
+}
+
+@media (min-width: 50rem) {
+  .form__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+  }
+}
