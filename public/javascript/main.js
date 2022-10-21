@@ -6,6 +6,7 @@ import '../styles/about.css'
 import '../styles/icons.css'
 import '../styles/works.css'
 import '../styles/contact.css'
+import '../styles/footer.css'
 
 import './navbar.js'
 import './contact.js'
