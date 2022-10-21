@@ -185,6 +185,7 @@ h3 { font-size: var(--fs-h3 )}
 
 .section__title {
     margin-bottom: .25em;
+    overflow: hidden;
 }
 
 .section__title--intro {
@@ -193,6 +194,7 @@ h3 { font-size: var(--fs-h3 )}
 
 .section__title--intro strong {
     display: block;
+    color: hsl(var(--clr-primary))
 }
 
 .section__subtitle {
@@ -202,15 +204,28 @@ h3 { font-size: var(--fs-h3 )}
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: hsl(var(--clr-light));
+    background: hsl(var(--clr-secondary));
     padding: 0.25em 1em;
+    /* border-radius: 15%; */
     font-family: var(--ff-heading);
     margin-bottom: 1em;
+    width: calc(100% + 1.5em);
+    text-align: center;
 }
 
 .section__subtitle--work {
     color: hsl(var(--clr-primary));
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+}
+
+.curved-div {
+  background-color: hsl(var(--clr-primary));
+  margin: 0;
+  padding: 0; 
+}
+
+.curved-div svg {
+  display: block;
 }
 
