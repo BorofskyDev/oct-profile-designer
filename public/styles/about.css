@@ -17,8 +17,9 @@
 }
 
 .about__social-media{
-    margin: 3em auto;
+    margin: 1em auto;
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,7 @@
 }
 
 .about__social-media--link{
-    padding: 2em;
+    padding: 1em;
     font-size: 1.5rem;
 }
 
