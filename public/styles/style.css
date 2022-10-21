@@ -186,6 +186,7 @@ h3 { font-size: var(--fs-h3 )}
 .section__title {
     margin-bottom: .25em;
     overflow: hidden;
+    text-align: center;
 }
 
 .section__title--intro {
