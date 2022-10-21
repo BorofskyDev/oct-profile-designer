@@ -99,7 +99,7 @@
     align-items: flex-start;
   }
 
-  .works__card {
-    /* height: 35em; */
+  .works__footer {
+    font-size: 1.4rem;
   }
 }
