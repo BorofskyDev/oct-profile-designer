@@ -13,6 +13,7 @@
  
 }
 
+
 .contact__container {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +25,7 @@
 .form-control {
   position: relative;
   margin: 1.25em 0 2.5em;
-  width: 18.75em;
+  width: 15.75em;
 }
 
 .form-control label {
@@ -111,12 +112,13 @@
     transform: scale(1.2);
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 55rem) {
   .form__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 2em;
+
   }
 }

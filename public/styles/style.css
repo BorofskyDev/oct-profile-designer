@@ -30,7 +30,13 @@
     --fs-body: 1rem;
 }
 
-@media (min-width: 50em){
+@media (min-width: 35em){
+  :root {
+    --fs-h1: 3.5rem;
+  }
+}
+
+@media (min-width: 55em){
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
@@ -92,7 +98,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-
+  overflow-x: hidden;
 }
 
 input,
