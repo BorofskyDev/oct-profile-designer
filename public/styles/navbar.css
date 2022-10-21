@@ -131,7 +131,6 @@ header {
         top: 10%;
         border-radius: 0;
         box-shadow: none;
-        backdrop-filter: none;
     }
 
     .logo {
