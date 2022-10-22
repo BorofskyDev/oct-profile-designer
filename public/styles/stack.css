@@ -72,7 +72,7 @@
 @media (min-width: 50em) {
   .stack__flow {
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
   }
 }
