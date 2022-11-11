@@ -10,3 +10,5 @@ import '../styles/footer.css'
 
 import './navbar.js'
 import './contact.js'
+import './stack.js'
+import './about.js'
