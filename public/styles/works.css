@@ -37,7 +37,9 @@
 
 .works__img {
   width: 80%;
+  height: 30%;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .works__stack {
